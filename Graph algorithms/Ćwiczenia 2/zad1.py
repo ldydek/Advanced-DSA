@@ -1,4 +1,5 @@
 # Edmonds-Karp algorithm. Passed all tests attached to the exercise.
+
 from math import inf
 from collections import deque
 from dimacs import *
