@@ -1,5 +1,5 @@
 # Algorytm prześlij-przemianuj.
-# Implementacja niby działa, choć nie jestem pewien, czy te warunek while overflow_vertex nie będzie psuć złożoności.
+# Implementacja niby działa, choć nie jestem pewien, czy ten warunek "while overflow_vertex" nie będzie psuć złożoności.
 # Oczekiwana złożoność: O(|V|^2|E|)
 
 from math import inf
