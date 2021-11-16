@@ -4,9 +4,9 @@
 # (W praktyce ścieżki szukamy tylko koncepcyjnie.)
 #
 # Rozwiązanie: Podejście za pomocą zbiorów rozłącznych. Pewna analogia do algorytmu Kruskala wyznaczającego MST.
-# Sortuję wagi krawędzi malejąco po wagach krawędzi a następnie buduję nowy graf dzięki operacji union do momentu aż
+# Sortuję krawędzie malejąco po ich wagach a następnie buduję nowy graf dzięki operacji "union" do momentu aż
 # dwa wierzchołki (źródło oraz ujście) nie będą w jednym zbiorze. Jeżeli w jednym zbiorze się znajdą, to oznaczać to
-# będzie, że istnieje pewna ścieżka pomiędzy tymi wierzchołkami a dodana waga jest naszą szukaną.
+# będzie, że istnieje pewna ścieżka pomiędzy tymi wierzchołkami a dodana waga jest naszą szukaną odpowiedzią.
 
 
 def matrix_to_list(graph):
