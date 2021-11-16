@@ -4,7 +4,7 @@
 # (W praktyce ścieżki szukamy tylko koncepcyjnie.)
 #
 # Rozwiązanie: To podejście opiera się na zmodyfikowanym algorytmie Dijkstry, w którym do kolejki dodajemy wagi
-# krawędzi ze zmienionym znakiem tak, aby kolejki ustalała priorytet na największą krawędź. W tablicy distance zamiast
+# krawędzi ze zmienionym znakiem tak, aby kolejka ustalała priorytet na największą krawędź. W tablicy distance zamiast
 # odległości od źródła zapisuję minimum z wartości, która już się tam znajduje oraz z wagi krawędzi obecnie rozważanej.
 from math import inf
 from queue import PriorityQueue
